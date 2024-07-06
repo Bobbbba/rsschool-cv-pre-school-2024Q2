@@ -1,3 +1,3 @@
-https://GITHUB-Bobbbba.github.io/rsschool-cv/cv
+https://Bobbbba.github.io/rsschool-cv/cv
 
-https://GITHUB-Bobbbba.github.io/rsschool-cv/
+https://Bobbbba.github.io/rsschool-cv/
