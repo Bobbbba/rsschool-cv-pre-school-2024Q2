@@ -9,38 +9,40 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
       rel="stylesheet"
+      
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <title>cv</title>
   </head>
   <body>
-    <header >
+    <header>
       <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#contacts" class="nav-link">Contacts</a>
-        </li>
-        <li class="nav-item">
-          <a href="#summary" class="nav-link">Summary</a>
-        </li>
-        <li class="nav-item"><a 
-          href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a 
-          href="#code" class="nav-link">Code</a></li>
-        <li class="nav-item">
-          <a href="#courses" class="nav-link">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a href="#projects" class="nav-link">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a href="#education" class="nav-link">Education</a>
-        </li>
-        <li class="nav-item">
-          <a href="#english" class="nav-link">English</a>
-        </li>
-      </ul>
-    </nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#english" class="nav-link">English</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="container">
       <div class="avatar-container">
@@ -54,9 +56,86 @@
           <h2>Junior front-end developer</h2>
         </div>
       </div>
+      <div class="blok-all">
+        <section class="blok">
+          <article>
+            <h3 id="contacts" class="section-title">Contacts</h3>
+            <ul class="icons-list">
+              <li> <span class="material-symbols-outlined">
+                pin_drop
+                </span> Borisov, Belarus</li>
+              <li> <span class="material-symbols-outlined">
+                mail
+                </span>Email: zwlad@tut.by</li>
+              <li> <img src="icons8-github-24.png" alt=""> Github: <a href="https://github.com/Bobbbba">Bobbbba</a> </li>
+              <li>  <span class="material-symbols-outlined">
+                near_me
+                </span>Telegram: @Sbobbbba</li>
+              <li> <img src="icons8-discord-24.png" alt=""></IMG>Discord: Bobbba</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="blok">
+          <h3 id="summary" class="section-title">Summary</h3>
+          <p>I like programming.It is fascinating and intresting.</p>
+        </section>
+
+        <section class="blok">
+          <h3 id="skills" class="section-title">Skills</h3>
+          <ul>
+            <li>Web-development: HTML5, CSS3, JavaScript</li>
+            <li>Version control: Git, Github</li>
+          </ul>
+        </section>
+        <section class="blok">
+          <h3 id="code" class="section-title">Code</h3>
+          <p>
+            const abs = (number) => { if (number >= 0) { return number; } return
+            -number; };
+          </p>
+        </section>
+
+        <section class="blok">
+          <h3 id="courses" class="section-title">Courses</h3>
+          <ul>
+            <li>Self-study on YouTube</li>
+            <li>Completing the RS School course 3 times</li>
+          </ul>
+        </section>
+        <section class="blok">
+          <h3 id="projects" class="section-title">Projects</h3>
+          <ul>
+            <li>B in the process of learning Javascript</li>
+          </ul>
+        </section>
+
+        <section class="blok">
+          <h3 id="education" class="section-title">Education</h3>
+          <ul>
+            <li>
+              BELARUSIAN STATE PEDAGOGICAL UNIVERSITY NAMED AFTER MAXIM TANK
+            </li>
+            <li>BELARUS STATE BELARUS STATE ECONOMIC UNIVERSITY</li>
+          </ul>
+        </section>
+        <section class="blok">
+          <h3 id="english" class="section-title">English</h3>
+          <ul>
+            <li>A0-Beginner</li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer class="container">
+    <footer class="container-footer">
+      <div class="footer-left">
       <p>2024</p>
+      <p>Bobbbba</p>
+    </div>
+      <div class="rsschool">
+         <a href="https://rs.school/courses/javascript-ru"><img style="width: 50px; height: 50px;" src="rs-school-logo.svg" alt="rs-school"></a>
+
+      </div>
     </footer>
   </body>
 </html>
